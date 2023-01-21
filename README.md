@@ -1,2 +1,2 @@
 # pcg-guessthenumber
-Guess the number gamem from rice university's pythoin course
+Guess the number game from Rice University's python course, modified to use python Arcade
