@@ -9,7 +9,7 @@ def game_loop():
     max_attempts = 7
 
     while (num_guesses < max_attempts):
-        player_choice = input("Guess a number between 1 and {}. You have {} attempts!\nYour Guess: ".format(100, (max_attempts- num_guesses)))
+        player_choice = input("Guess a number between 1 and {}. You have {} attempts!\nYour Guess: ".format(100, (max_attempts - num_guesses)))
         num_guesses += 1
         if (int(player_choice) == secret):
             print("Secret: {}, Your Guess: {}, You Won!!".format(secret, player_choice))
